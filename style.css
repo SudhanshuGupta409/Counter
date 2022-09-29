@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    height: 94vh;
+    background: linear-gradient(135deg,rgb(0, 0, 0)50%, rgb(243, 19, 3)50%);
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(252, 250, 253);
+}
+
+.value{
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+}
+
+.decrease{
+    padding: 4px 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: rgb(236, 10, 10);
+    width: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+.decrease:hover{
+    color: white;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+.reset{
+    padding: 4px 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: rgb(155, 136, 136);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+.reset:hover{
+    color: white;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+.increase{
+    padding: 4px 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: rgb(82, 175, 6);
+    width: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+.increase:hover{
+    color: white;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
